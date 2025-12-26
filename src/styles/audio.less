@@ -1,0 +1,40 @@
+.player {
+  position: relative;
+  margin-left: 10px;
+
+  .progress {
+    position: absolute;
+    left: 0;
+    z-index: 999;
+  }
+
+  a {
+    width: 35px;
+    height: 35px;
+    display: inherit;
+    text-decoration: none;
+  }
+
+  .time {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-size: 10px;
+    color: #23232E;
+    z-index: -1;
+  }
+
+  .play {
+    background: url("../assets/btnPlay.png?7") no-repeat top;
+    background-size: 35px 35px;
+  }
+
+  .pause {
+    background: url("../assets/btnStop.png?7") no-repeat top;
+    background-size: 35px 35px;
+  }
+
+  .load {
+    background: url("../assets/btnLoading.gif?7") no-repeat top;
+    background-size: 35px 35px;
+  }
+}

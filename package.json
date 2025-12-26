@@ -1,0 +1,67 @@
+{
+  "name": "vue-web-demo",
+  "version": "0.3.0",
+  "description": "基于 Vue2 + Element UI 的 Web 应用程序",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "tauri:build:win": "tauri build --target x86_64-pc-windows-msvc"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.41.0",
+    "echarts": "^5.5.1",
+    "element-ui": "^2.15.14",
+    "js-md5": "^0.7.3",
+    "jssha": "^3.2.0",
+    "jssip": "^3.10.1",
+    "less": "^4.3.0",
+    "less-loader": "^12.2.0",
+    "svg-sprite-loader": "^6.0.11",
+    "vue": "^2.6.14",
+    "vue-axios": "^3.2.4",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@tauri-apps/cli": "^2.9.6",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "crypto-browserify": "^3.12.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.5.3",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "vm-browserify": "^1.1.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
